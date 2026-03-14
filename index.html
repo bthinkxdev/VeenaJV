@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veena J V — Empowering Lives Through Guidance & Purpose</title>
+
+<style>
+
+/* ══════════════════════════════════
+   iOS / SF PRO TYPOGRAPHY SYSTEM
+══════════════════════════════════ */
+:root {
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  --font-text:    -apple-system, BlinkMacSystemFont, "SF Pro Text",    "Helvetica Neue", Arial, sans-serif;
+  --font-rounded: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Helvetica Neue", Arial, sans-serif;
+  --tracking-tight:  -0.03em;
+  --tracking-normal: -0.01em;
+  --tracking-wide:    0.02em;
+}
+
+/* Override all heading elements to use SF Pro Display characteristics */
+h1, h2, h3, .sec-title, .hero-h1, .nav-logo, .foot-brand,
+.about-accent-num, .hstat-num, .hero-img-name, .academy-badge-title,
+.rec-theme, .founder-quote, .test-text, .mv-card-text,
+.comm-card-title, .prog-title, .hl-title, .exp-title, .af-title {
+  font-family: var(--font-display) !important;
+  font-style: normal !important;
+  letter-spacing: var(--tracking-tight) !important;
+}
+
+/* Large display titles — ultra-bold SF Pro Display style */
+.hero-h1 {
+  font-weight: 700 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.05 !important;
+}
+.hero-h1 em {
+  font-style: normal !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.03em !important;
+}
+
+/* Section titles — SF Pro Display Semibold */
+.sec-title {
+  font-weight: 600 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.1 !important;
+}
+.sec-title em {
+  font-style: normal !important;
+  font-weight: 300 !important;
+  color: var(--gold) !important;
+}
+
+/* Hero image card name */
+.hero-img-name, .academy-badge-title, .foot-brand {
+  font-weight: 600 !important;
+  letter-spacing: -0.025em !important;
+}
+
+/* Navigation logo */
+.nav-logo {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Stat numbers */
+.hstat-num {
+  font-weight: 700 !important;
+  letter-spacing: -0.03em !important;
+}
+.about-accent-num {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.1 !important;
+}
+
+/* Eyebrow / labels — SF Pro Text Semibold caps */
+.eyebrow, .htag, .qual-pill, .rec-pill, .rec-badge-text, .nav-links a,
+.hero-img-title, .academy-badge-sub, .mv-card-lbl, .hl-desc,
+.ci-lbl, .fl, .foot-col-title, .prog-link, .af-title {
+  font-family: var(--font-text) !important;
+  letter-spacing: 0.06em !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* Body text — SF Pro Text Regular, comfortable reading */
+.sec-body, .hero-sub, .exp-text, .comm-card-text, .prog-text,
+.af-text, .rec-body, .impact-text, .test-text, .founder-quote,
+.hl-desc, .trait-text {
+  font-family: var(--font-text) !important;
+  font-style: normal !important;
+  letter-spacing: -0.005em !important;
+  line-height: 1.65 !important;
+}
+
+/* Testimonial and quote text — SF Pro Display Light Italic equivalent */
+.test-text, .founder-quote, .mv-card-text, .rec-theme {
+  font-weight: 300 !important;
+  font-style: normal !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.6 !important;
+}
+
+/* Founder signature */
+.founder-sig {
+  font-family: var(--font-display) !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* Gallery captions */
+.gal-caption {
+  font-family: var(--font-text) !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  font-style: normal !important;
+}
+
+/* Card titles */
+.hl-title, .exp-title, .comm-card-title, .prog-title, .af-title {
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Portrait and recognition theme */
+.rec-theme {
+  font-weight: 300 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Portrait name */
+.portrait-name, .hero-img-name {
+  font-weight: 600 !important;
+  letter-spacing: -0.025em !important;
+}
+
+/* Buttons — SF Pro Text Medium */
+.btn {
+  font-family: var(--font-text) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.04em !important;
+}
+
+/* Input fields */
+.fi {
+  font-family: var(--font-text) !important;
+  letter-spacing: -0.005em !important;
+}
+
+/* Mobile menu links */
+.mob-menu a {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.03em !important;
+}
+
+/* Quote marks — use system font weight */
+.test-q {
+  font-family: var(--font-display) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+}
+
+/* Hero badge */
+.hero-badge-text {
+  font-family: var(--font-display) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* Academy emblem letter */
+.mv-bg-char {
+  font-family: var(--font-display) !important;
+  font-weight: 700 !important;
+}
+
+
+:root{
+  /* Brand */
+  --gold:#BF9040;--gold-bright:#D4A84B;--gold-pale:#F3E6C8;--gold-muted:rgba(191,144,64,.15);
+  --terra:#B5623A;--sage:#7A9E8E;
+
+  /* iOS Light Mode (default) */
+  --bg:#F5F5F7;--bg2:#FFFFFF;--bg3:#F0F0F2;
+  --surface:rgba(255,255,255,0.72);--surface2:rgba(255,255,255,0.55);
+  --glass:rgba(255,255,255,0.6);--glass-border:rgba(0,0,0,0.08);
+  --text1:#1D1D1F;--text2:#3D3D3F;--text3:#6E6E73;--text4:#AEAEB2;
+  --accent:#6B4EFF;--accent2:#8B6FFF;--accent-glow:rgba(107,78,255,0.25);
+  --di-bg:#000000;--di-text:#FFFFFF;
+  --sep:rgba(0,0,0,0.1);
+  --card-shadow:0 4px 24px rgba(0,0,0,0.08),0 1px 4px rgba(0,0,0,0.04);
+  --card-shadow-hover:0 16px 48px rgba(0,0,0,0.14),0 4px 12px rgba(0,0,0,0.06);
+
+  /* kept for compat */
+  --cream:#F5F5F7;--off-white:#FFFFFF;--teal-deep:#1D1D1F;--teal:#2D2D2F;--teal-mid:#3D3D3F;--teal-light:#6E6E73;
+  --blush:#E8E0F0;
+  --text-dark:#1D1D1F;--text-mid:#3D3D3F;--text-soft:#6E6E73;--text-muted:#AEAEB2;
+  --border:rgba(0,0,0,0.1);--border-light:rgba(0,0,0,0.06);
+}
+
+/* DARK MODE */
+[data-theme="dark"]{
+  --bg:#000000;--bg2:#1C1C1E;--bg3:#2C2C2E;
+  --surface:rgba(44,44,46,0.85);--surface2:rgba(58,58,60,0.7);
+  --glass:rgba(28,28,30,0.75);--glass-border:rgba(255,255,255,0.1);
+  --text1:#F5F5F7;--text2:#EBEBF0;--text3:#AEAEB2;--text4:#636366;
+  --accent:#7C5FFF;--accent2:#A080FF;--accent-glow:rgba(124,95,255,0.3);
+  --di-bg:#1C1C1E;--di-text:#F5F5F7;
+  --sep:rgba(255,255,255,0.1);
+  --card-shadow:0 4px 24px rgba(0,0,0,0.4),0 1px 4px rgba(0,0,0,0.2);
+  --card-shadow-hover:0 16px 48px rgba(0,0,0,0.6),0 4px 12px rgba(0,0,0,0.3);
+  --cream:#000000;--off-white:#1C1C1E;--teal-deep:#F5F5F7;--teal:#EBEBF0;--teal-mid:#AEAEB2;--teal-light:#636366;
+  --text-dark:#F5F5F7;--text-mid:#EBEBF0;--text-soft:#AEAEB2;--text-muted:#636366;
+  --border:rgba(255,255,255,0.1);--border-light:rgba(255,255,255,0.06);
+  --gold:#D4A84B;--gold-bright:#E4B85B;--gold-pale:rgba(212,168,75,0.15);
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:-apple-system,'DM Sans',BlinkMacSystemFont,'SF Pro Text',sans-serif;background:var(--bg);color:var(--text1);overflow-x:hidden;cursor:none;-webkit-font-smoothing:antialiased;transition:background .4s ease,color .4s ease}
+
+/* CURSOR */
+#cur{position:fixed;width:10px;height:10px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .12s;mix-blend-mode:multiply}
+#cur2{position:fixed;width:38px;height:38px;border:1.5px solid var(--gold);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);opacity:.45}
+
+/* ═══ DYNAMIC ISLAND NAV ═══ */
+nav{display:none}
+#di-nav{
+  position:fixed;top:14px;left:50%;transform:translateX(-50%);
+  z-index:10000;
+  width:auto;min-width:320px;max-width:760px;
+  background:var(--di-bg);
+  border-radius:50px;
+  padding:10px 18px;
+  display:flex;align-items:center;gap:0;
+  box-shadow:0 8px 32px rgba(0,0,0,0.35),0 2px 8px rgba(0,0,0,0.2),inset 0 1px 0 rgba(255,255,255,0.06);
+  transition:all .5s cubic-bezier(.34,1.56,.64,1);
+  cursor:pointer;
+  user-select:none;
+  overflow:hidden;
+  white-space:nowrap;
+}
+#di-nav.expanded{
+  border-radius:28px;
+  padding:16px 24px;
+  min-width:680px;
+  gap:6px;
+}
+.di-logo{
+  font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1rem;font-weight:600;
+  color:#fff;letter-spacing:.06em;white-space:nowrap;
+  transition:all .4s ease;flex-shrink:0;
+}
+.di-logo em{font-style:normal;color:var(--gold)}
+.di-dot{width:8px;height:8px;background:var(--gold);border-radius:50%;margin:0 12px;flex-shrink:0;transition:all .4s}
+.di-links{
+  display:flex;gap:4px;align-items:center;
+  max-width:0;overflow:hidden;opacity:0;
+  transition:max-width .5s cubic-bezier(.34,1.56,.64,1),opacity .3s ease;
+}
+#di-nav.expanded .di-links{max-width:600px;opacity:1}
+.di-links a{
+  font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;font-weight:500;
+  color:rgba(255,255,255,0.7);text-decoration:none;
+  padding:.45rem .9rem;border-radius:20px;transition:all .25s ease;
+  white-space:nowrap;
+}
+.di-links a:hover{color:#fff;background:rgba(255,255,255,.1)}
+.di-links a.di-cta{background:var(--accent);color:#fff;padding:.45rem 1.1rem}
+.di-links a.di-cta:hover{background:var(--accent2)}
+.di-right{display:flex;align-items:center;gap:8px;margin-left:auto;flex-shrink:0}
+#di-nav.expanded .di-right{margin-left:8px}
+.di-theme-btn{
+  width:32px;height:32px;border-radius:50%;border:none;cursor:pointer;
+  background:rgba(255,255,255,.1);color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  transition:all .3s ease;flex-shrink:0;
+}
+.di-theme-btn:hover{background:rgba(255,255,255,.2);transform:scale(1.1)}
+.di-status{
+  width:10px;height:10px;background:#30D158;border-radius:50%;
+  box-shadow:0 0 6px #30D158;flex-shrink:0;
+  animation:blink 3s ease infinite;
+}
+@keyframes blink{0%,90%,100%{opacity:1}95%{opacity:.3}}
+.di-indicator{
+  position:absolute;bottom:0;left:50%;transform:translateX(-50%);
+  height:2px;width:32px;background:var(--gold);border-radius:2px 2px 0 0;
+  transition:opacity .3s;
+}
+#di-nav.expanded .di-indicator{opacity:0}
+
+/* MOBILE MENU */
+.mob-menu{display:none;position:fixed;inset:0;z-index:9999;flex-direction:column;align-items:center;justify-content:center;gap:2rem;opacity:0;pointer-events:none;transition:opacity .4s}
+.mob-menu{background:var(--bg2);backdrop-filter:blur(40px);-webkit-backdrop-filter:blur(40px)}
+.mob-menu.open{display:flex;opacity:1;pointer-events:all}
+.mob-menu a{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:2.2rem;color:var(--text1);text-decoration:none;transition:color .3s}
+.mob-menu a:hover{color:var(--accent)}
+.mob-close{position:absolute;top:1.8rem;right:5%;background:rgba(0,0,0,.08);border:none;color:var(--text1);font-size:1.2rem;cursor:pointer;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+[data-theme="dark"] .mob-close{background:rgba(255,255,255,.1);color:#fff}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 2rem;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;font-weight:500;text-decoration:none;border:none;cursor:pointer;transition:all .35s ease}
+.btn-dark{background:var(--accent);color:#fff}
+.btn-dark:hover{background:var(--accent2);transform:translateY(-3px);box-shadow:0 8px 24px var(--accent-glow)}
+.btn-out{background:transparent;border:1.5px solid var(--sep);color:var(--text1)}
+.btn-out:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-3px)}
+.btn-gold{background:var(--gold);color:var(--teal-deep)}
+.btn-gold:hover{background:var(--gold-bright);transform:translateY(-2px)}
+.btn-ghost{background:transparent;border:1.5px solid rgba(250,248,243,.3);color:var(--cream)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px)}
+
+/* SECTION COMMONS */
+section{padding:7rem 5%;position:relative;transition:background .4s ease}
+.eyebrow{display:inline-flex;align-items:center;gap:.75rem;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:1rem}
+.eyebrow::before{content:'';width:28px;height:1px;background:var(--gold)}
+.sec-title{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:clamp(2rem,3.5vw,3.4rem);font-weight:600;line-height:1.1;color:var(--text1);margin-bottom:1.2rem}
+.sec-title em{font-style:italic;color:var(--gold);font-weight:400}
+.sec-body{font-size:.95rem;color:var(--text3);line-height:1.9;font-weight:300;max-width:600px}
+.rule{width:44px;height:2px;background:var(--gold);margin:1.4rem 0}
+
+/* REVEAL */
+.rv{opacity:0;transform:translateY(36px);transition:opacity .85s ease,transform .85s ease}
+.rv.in{opacity:1;transform:none}
+.rl{opacity:0;transform:translateX(-36px);transition:opacity .85s ease,transform .85s ease}
+.rl.in{opacity:1;transform:none}
+.rr{opacity:0;transform:translateX(36px);transition:opacity .85s ease,transform .85s ease}
+.rr.in{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}
+
+/* HERO */
+#home{min-height:100vh;padding:0;display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden}
+.hero-left{display:flex;flex-direction:column;justify-content:center;padding:9rem 5% 6rem 6%;background:var(--bg);position:relative;z-index:2}
+.hero-left::after{content:'';position:absolute;top:0;right:-60px;bottom:0;width:120px;background:var(--bg);clip-path:polygon(0 0,0 100%,100% 100%);z-index:1}
+.htag-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.2rem}
+.htag{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);border:1px solid rgba(107,78,255,.3);padding:.3rem .85rem;border-radius:20px;background:rgba(107,78,255,.06)}
+.hero-h1{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:clamp(2.6rem,4vw,4.4rem);font-weight:600;line-height:1.08;color:var(--text1);margin-bottom:1.4rem}
+.hero-h1 em{font-style:italic;color:var(--gold);font-weight:300}
+.hero-sub{font-size:.95rem;color:var(--text3);line-height:1.85;font-weight:300;max-width:460px;margin-bottom:2.4rem}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
+.hero-stats-row{display:flex;gap:2.5rem;margin-top:3.5rem;padding-top:2rem;border-top:1px solid var(--sep)}
+.hstat-num{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:2rem;font-weight:600;color:var(--text1);line-height:1}
+.hstat-label{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text4);margin-top:.25rem}
+.hero-right{position:relative;overflow:hidden}
+.hero-img{width:100%;height:100%;object-fit:cover;filter:brightness(.88) contrast(1.05)}
+.hero-img-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(19,46,46,.25) 0%,transparent 50%),linear-gradient(to top,rgba(19,46,46,.8) 0%,transparent 55%)}
+.hero-img-card{position:absolute;bottom:3rem;left:3rem;right:3rem;background:rgba(19,46,46,.82);backdrop-filter:blur(16px);border:1px solid rgba(191,144,64,.25);padding:2rem 2.2rem}
+.hero-img-name{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.6rem;color:var(--cream);font-weight:500}
+.hero-img-title{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-bright);margin-top:.4rem}
+.hero-badge{position:absolute;top:3rem;right:3rem;width:100px;height:100px;background:var(--gold);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hero-badge-text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:.72rem;font-weight:600;color:var(--teal-deep);line-height:1.3;text-transform:uppercase;letter-spacing:.05em}
+
+/* ABOUT */
+#about{background:var(--bg2);padding:7rem 5%}
+.about-wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:6rem;align-items:center}
+.about-img-col{position:relative}
+.about-img-main{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;filter:brightness(.9) saturate(.95)}
+.about-img-frame{position:absolute;top:-20px;left:-20px;right:40px;bottom:40px;border:1px solid rgba(191,144,64,.3);pointer-events:none;z-index:0}
+.about-img-wrap{position:relative;z-index:1;max-width:380px}
+.about-img-accent{position:absolute;bottom:-24px;right:-24px;width:160px;height:100px;background:var(--gold);z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1rem}
+.about-accent-num{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.6rem;font-weight:700;color:var(--teal-deep);line-height:1.2}
+.about-accent-lbl{font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--teal-deep);margin-top:.25rem}
+.about-content .eyebrow{color:rgba(191,144,64,.9)}
+.about-content .eyebrow::before{background:rgba(191,144,64,.9)}
+.about-content .sec-title{color:var(--text1)}
+.about-content .sec-body{color:var(--text3);max-width:520px}
+.about-quals{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.8rem 0}
+.qual-pill{border:1px solid var(--accent);padding:.45rem 1.1rem;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);background:rgba(107,78,255,.06);border-radius:20px}
+.about-traits{display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-top:2.5rem;background:var(--sep)}
+.trait{background:var(--bg2);padding:1.2rem 1.4rem;display:flex;align-items:center;gap:.9rem;border-bottom:1px solid rgba(250,248,243,.04)}
+.trait-icon{color:var(--gold);flex-shrink:0}
+.trait-text{font-size:.82rem;color:var(--text2);line-height:1.4}
+
+/* MISSION VISION */
+#mission{background:var(--bg);padding:7rem 5%}
+.mv-header{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:end;margin-bottom:5rem}
+.mv-header-img{width:100%;height:360px;object-fit:cover;object-position:center 20%;filter:brightness(.85) saturate(.9)}
+.mv-cards{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--border)}
+.mv-card{background:var(--bg2);padding:3.5rem 3rem;position:relative;overflow:hidden}
+.mv-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold)}
+.mv-card-lbl{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:1.2rem}
+.mv-icon{margin-bottom:1.5rem;color:var(--teal-mid)}
+.mv-card-text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.25rem;color:var(--text-dark);line-height:1.75;font-style:italic}
+.mv-bg-char{position:absolute;bottom:-30px;right:-5px;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:10rem;color:rgba(191,144,64,.05);font-weight:700;user-select:none;pointer-events:none;line-height:1}
+
+/* HIGHLIGHTS */
+#highlights{background:var(--bg3);padding:7rem 5%}
+.hl-intro{max-width:580px;margin-bottom:4rem}
+.hl-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5px;background:var(--border-light)}
+.hl-card{background:var(--bg);padding:2.2rem 1.8rem;position:relative;overflow:hidden;transition:background .35s,box-shadow .35s;cursor:default}
+.hl-card:hover{background:var(--bg2);box-shadow:0 24px 64px rgba(19,46,46,.18)}
+.hl-card:hover .hl-title{color:var(--text1)}
+.hl-card:hover .hl-desc{color:var(--text3)}
+.hl-card:hover .hl-icon-wrap{background:rgba(191,144,64,.15);border-color:rgba(191,144,64,.3);color:var(--gold)}
+.hl-card:hover .hl-num{color:rgba(191,144,64,.12)}
+.hl-num{position:absolute;top:.8rem;right:1.2rem;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:3rem;font-weight:300;color:rgba(191,144,64,.08);line-height:1;transition:color .35s}
+.hl-icon-wrap{width:46px;height:46px;display:flex;align-items:center;justify-content:center;background:var(--gold-pale);border:1px solid rgba(191,144,64,.2);margin-bottom:1.2rem;color:var(--teal-mid);transition:all .35s}
+.hl-title{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.15rem;color:var(--teal-deep);margin-bottom:.5rem;font-weight:500;line-height:1.3;transition:color .35s}
+.hl-desc{font-size:.78rem;color:var(--text-soft);line-height:1.6;transition:color .35s}
+
+/* EXPERTISE */
+#expertise{background:var(--bg2);padding:7rem 5%}
+.exp-wrap{display:grid;grid-template-columns:1fr 1.6fr;gap:6rem;align-items:start}
+.exp-left .eyebrow{color:var(--gold-bright)}
+.exp-left .eyebrow::before{background:var(--gold-bright)}
+.exp-left .sec-title{color:var(--text1)}
+.exp-left .sec-body{color:var(--text3);margin-bottom:2rem}
+.exp-img{width:100%;height:280px;object-fit:cover;filter:brightness(.7) saturate(.8)}
+.exp-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5px;background:rgba(250,248,243,.06)}
+.exp-card{background:var(--bg2);padding:2rem 1.8rem;border:1px solid rgba(250,248,243,.04);position:relative;overflow:hidden;transition:all .35s}
+.exp-card:hover{background:rgba(107,78,255,.06);border-color:rgba(191,144,64,.25)}
+.exp-card::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:var(--gold);transition:width .4s}
+.exp-card:hover::after{width:100%}
+.exp-icon{color:var(--gold);margin-bottom:1.2rem}
+.exp-title{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.2rem;color:var(--text1);margin-bottom:.6rem;font-weight:500}
+.exp-text{font-size:.8rem;color:var(--text3);line-height:1.8;font-weight:300}
+
+/* ACADEMY */
+#academy{background:var(--bg);padding:7rem 5%}
+.academy-wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:5rem;align-items:center}
+.academy-img-col{position:relative}
+.academy-img-main{width:100%;height:500px;object-fit:cover;display:block;filter:brightness(.88)}
+.academy-img-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(19,46,46,.85) 0%,transparent 55%)}
+.academy-img-badge{position:absolute;bottom:2.5rem;left:2.5rem;right:2.5rem;border:1px solid rgba(191,144,64,.4);padding:2rem;background:rgba(19,46,46,.72);backdrop-filter:blur(12px)}
+.academy-badge-title{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.8rem;color:var(--cream);font-weight:500}
+.academy-badge-sub{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-bright);margin-top:.5rem}
+.academy-features{display:flex;flex-direction:column;gap:1px;margin-top:2.5rem;background:var(--border)}
+.af{display:flex;align-items:flex-start;gap:1.2rem;background:var(--bg2);padding:1.5rem;transition:background .3s}
+.af:hover{background:var(--bg3)}
+.af-icon{color:var(--teal-mid);flex-shrink:0;margin-top:2px}
+.af-title{font-size:.82rem;font-weight:500;color:var(--teal-deep);margin-bottom:.3rem}
+.af-text{font-size:.78rem;color:var(--text-soft);line-height:1.6}
+
+/* RECOGNITION */
+#recognition{padding:0;overflow:hidden}
+.rec-wrap{display:grid;grid-template-columns:1fr 1fr;min-height:80vh}
+.rec-img-col{position:relative}
+.rec-img{width:100%;height:100%;object-fit:cover;min-height:600px;filter:brightness(.7) saturate(.8)}
+.rec-img-overlay{position:absolute;inset:0;background:linear-gradient(to right,transparent 40%,var(--teal-deep) 100%)}
+.rec-content{background:var(--bg2);padding:6rem 5rem 6rem 4rem;display:flex;flex-direction:column;justify-content:center}
+.rec-content .eyebrow{color:var(--gold-bright)}
+.rec-content .eyebrow::before{background:var(--gold-bright)}
+.rec-content .sec-title{color:var(--text1)}
+.rec-badge{display:inline-flex;align-items:center;gap:.8rem;background:rgba(191,144,64,.12);border:1px solid rgba(191,144,64,.3);padding:.7rem 1.3rem;margin-bottom:1.8rem}
+.rec-badge-icon{color:var(--gold)}
+.rec-badge-text{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-bright);font-weight:500}
+.rec-theme{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.35rem;color:var(--gold);font-style:italic;border-left:3px solid var(--gold);padding-left:1.4rem;margin:1.8rem 0}
+.rec-body{font-size:.88rem;color:var(--text3);line-height:1.9;font-weight:300;max-width:480px}
+.rec-pillars{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:2rem}
+.rec-pill{background:rgba(191,144,64,.1);border:1px solid rgba(191,144,64,.22);padding:.4rem 1rem;font-size:.7rem;color:var(--gold-bright);letter-spacing:.1em;text-transform:uppercase}
+
+/* COMMUNITY */
+#community{background:var(--bg3);padding:7rem 5%}
+.comm-header{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:end;margin-bottom:5rem}
+.comm-header-text{max-width:480px}
+.comm-header-img{width:100%;height:300px;object-fit:cover;filter:brightness(.85) saturate(.9)}
+.comm-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--border)}
+.comm-card{background:var(--bg2);overflow:hidden}
+.comm-card-img{width:100%;height:220px;object-fit:cover;filter:brightness(.85);transition:transform .6s ease,filter .4s}
+.comm-card:hover .comm-card-img{transform:scale(1.04);filter:brightness(.9)}
+.comm-card-body{padding:2rem 2.2rem}
+.comm-card-icon{color:var(--teal-mid);margin-bottom:1rem}
+.comm-card-title{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.3rem;color:var(--teal-deep);margin-bottom:.8rem;font-weight:500}
+.comm-card-text{font-size:.82rem;color:var(--text-soft);line-height:1.8;font-weight:300}
+
+/* PROGRAMS */
+#programs{background:var(--bg);padding:7rem 5%}
+.prog-intro{max-width:580px;margin-bottom:4rem}
+.prog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--border)}
+.prog-card{background:var(--bg2);overflow:hidden;transition:box-shadow .35s}
+.prog-card:hover{box-shadow:0 20px 60px rgba(19,46,46,.12)}
+.prog-card-img{width:100%;height:200px;object-fit:cover;filter:brightness(.82) saturate(.9);transition:transform .6s ease}
+.prog-card:hover .prog-card-img{transform:scale(1.05)}
+.prog-card-body{padding:2rem 2rem 2.5rem}
+.prog-icon{color:var(--teal-mid);margin-bottom:1rem}
+.prog-title{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.2rem;color:var(--teal-deep);margin-bottom:.7rem;font-weight:500}
+.prog-text{font-size:.8rem;color:var(--text-soft);line-height:1.75;font-weight:300}
+.prog-link{display:inline-flex;align-items:center;gap:.4rem;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-top:1.2rem;text-decoration:none;border-bottom:1px solid rgba(191,144,64,.3);padding-bottom:.2rem;transition:border-color .3s,gap .3s}
+.prog-link:hover{border-color:var(--gold);gap:.7rem}
+
+/* IMPACT */
+#impact{padding:0;overflow:hidden}
+.impact-wrap{display:grid;grid-template-columns:1.2fr 1fr;min-height:70vh}
+.impact-img-col{position:relative}
+.impact-img{width:100%;height:100%;object-fit:cover;min-height:500px;filter:brightness(.75) saturate(.85)}
+.impact-img-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(19,46,46,.6),transparent)}
+.impact-content{background:var(--bg2);padding:6rem 4rem;display:flex;flex-direction:column;justify-content:center}
+.impact-content .eyebrow{color:var(--gold-bright)}
+.impact-content .eyebrow::before{background:var(--gold-bright)}
+.impact-content .sec-title{color:var(--text1)}
+.impact-items{display:flex;flex-direction:column;gap:1px;margin-top:2.5rem;background:rgba(250,248,243,.06)}
+.impact-item{background:var(--bg3);padding:1.3rem 1.5rem;display:flex;align-items:center;gap:1.2rem;border:1px solid rgba(250,248,243,.05);transition:background .3s,border-color .3s}
+.impact-item:hover{background:rgba(107,78,255,.06);border-color:rgba(191,144,64,.2)}
+.impact-icon{color:var(--gold);flex-shrink:0}
+.impact-text{font-size:.88rem;color:var(--text2);line-height:1.5}
+
+/* TESTIMONIALS */
+#testimonials{background:var(--bg3);padding:7rem 5%}
+.test-wrap{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:4rem;background:var(--border)}
+.test-card{background:var(--bg2);overflow:hidden}
+.test-card-top{position:relative;height:200px}
+.test-card-img{width:100%;height:100%;object-fit:cover;filter:brightness(.8) saturate(.85)}
+.test-card-img-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(250,248,243,1) 100%)}
+.test-card-body{padding:2rem 2.5rem 2.5rem}
+.test-q{font-size:3.5rem;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;color:var(--gold);line-height:.5;opacity:.35;margin-bottom:1.2rem}
+.test-text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.18rem;color:var(--text-dark);line-height:1.7;font-style:italic;margin-bottom:1.8rem}
+.test-author{display:flex;align-items:center;gap:1rem}
+.test-av{width:42px;height:42px;background:var(--teal-deep);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--cream);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.1rem}
+.test-name{font-size:.82rem;font-weight:500;color:var(--text-dark)}
+.test-role{font-size:.7rem;color:var(--text-muted);letter-spacing:.05em}
+
+/* FOUNDER */
+#founder{padding:0;overflow:hidden}
+.founder-wrap{display:grid;grid-template-columns:1fr 1fr;min-height:60vh}
+.founder-img-col{position:relative}
+.founder-img{width:100%;height:100%;object-fit:cover;min-height:500px;object-position:center top;filter:brightness(.82) saturate(.9)}
+.founder-img-overlay{position:absolute;inset:0;background:linear-gradient(to right,transparent 50%,var(--teal-deep) 100%)}
+.founder-content{background:var(--bg2);padding:6rem 5rem 6rem 4rem;display:flex;flex-direction:column;justify-content:center}
+.founder-content .eyebrow{color:var(--gold-bright)}
+.founder-content .eyebrow::before{background:var(--gold-bright)}
+.founder-content .sec-title{color:var(--text1)}
+.founder-quote{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.22rem;color:var(--text2);line-height:1.8;font-style:italic;border-top:1px solid rgba(191,144,64,.2);border-bottom:1px solid rgba(191,144,64,.2);padding:2.5rem 0;margin:2rem 0;position:relative}
+.founder-quote::before{content:'\201C';position:absolute;top:1.5rem;left:-1rem;font-size:4rem;color:rgba(191,144,64,.2);line-height:.5;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif}
+.founder-sig{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.1rem;color:var(--gold);font-style:italic;letter-spacing:.05em}
+
+/* GALLERY */
+#gallery{background:var(--bg);padding:7rem 5%}
+.gal-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:280px 280px;gap:3px;margin-top:4rem}
+.gal-item{position:relative;overflow:hidden;cursor:pointer}
+.gal-item:nth-child(1){grid-column:span 2;grid-row:span 2}
+.gal-img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease;filter:brightness(.85)}
+.gal-item:hover .gal-img{transform:scale(1.07)}
+.gal-overlay{position:absolute;inset:0;background:rgba(19,46,46,0);transition:background .4s;display:flex;align-items:flex-end;padding:2rem}
+.gal-item:hover .gal-overlay{background:rgba(19,46,46,.5)}
+.gal-caption{transform:translateY(10px);opacity:0;transition:all .4s;color:var(--cream);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.1rem}
+.gal-item:hover .gal-caption{transform:none;opacity:1}
+
+/* CONTACT */
+#contact{background:var(--bg3);padding:7rem 5%}
+.contact-wrap{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
+.contact-img{width:100%;height:260px;object-fit:cover;filter:brightness(.85) saturate(.9);margin-bottom:2.5rem}
+.contact-info{display:flex;flex-direction:column;gap:1.5rem;margin-top:1rem}
+.ci{display:flex;align-items:flex-start;gap:1rem;padding-bottom:1.5rem;border-bottom:1px solid var(--border)}
+.ci-icon{width:40px;height:40px;background:var(--teal-deep);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--gold)}
+.ci-lbl{font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem}
+.ci-val{font-size:.9rem;color:var(--text-dark)}
+.contact-form{display:flex;flex-direction:column;gap:1rem}
+.fg{display:flex;flex-direction:column;gap:.4rem}
+.fl{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-soft)}
+.fi{background:var(--bg2);border:1px solid rgba(191,144,64,.2);padding:.85rem 1rem;font-size:.9rem;color:var(--text-dark);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;outline:none;transition:border-color .3s;width:100%}
+.fi:focus{border-color:var(--gold)}
+textarea.fi{resize:vertical;min-height:130px}
+.form-actions{display:flex;gap:1rem;margin-top:.5rem;flex-wrap:wrap}
+.note-box{background:var(--bg2);border-left:3px solid var(--gold);padding:1.2rem 1.5rem;margin-top:1.5rem}
+.note-box p{font-size:.8rem;color:var(--text-mid);line-height:1.7}
+
+/* FOOTER */
+footer{background:var(--bg2);border-top:1px solid var(--sep);padding:5rem 5% 2.5rem}
+.foot-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:4rem;margin-bottom:4rem;padding-bottom:4rem;border-bottom:1px solid rgba(250,248,243,.07)}
+.foot-brand{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:1.7rem;color:var(--text1);font-weight:500;margin-bottom:1rem}
+.foot-brand em{font-style:normal;color:var(--gold)}
+.foot-tagline{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',sans-serif;font-size:.98rem;color:var(--text3);font-style:italic;line-height:1.65;margin-bottom:1.5rem}
+.foot-social{display:flex;gap:.6rem}
+.fsoc{width:36px;height:36px;background:var(--bg3);border:1px solid var(--sep);display:flex;align-items:center;justify-content:center;text-decoration:none;color:var(--text3);transition:all .3s}
+.fsoc:hover{background:var(--gold);border-color:var(--gold);color:var(--teal-deep)}
+.foot-col-title{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.4rem;font-weight:500}
+.foot-links{display:flex;flex-direction:column;gap:.7rem}
+.foot-links a{font-size:.83rem;color:var(--text3);text-decoration:none;transition:color .3s}
+.foot-links a:hover{color:var(--gold)}
+.foot-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.foot-copy{font-size:.73rem;color:var(--text4)}
+.foot-copy em{color:var(--gold);font-style:normal}
+
+/* RESPONSIVE */
+@media(max-width:1100px){
+  #home{grid-template-columns:1fr}
+  .hero-right{display:none}
+  .hero-left{padding:9rem 6% 6rem}
+  .about-wrap,.academy-wrap,.contact-wrap{grid-template-columns:1fr;gap:3rem}
+  .mv-header{grid-template-columns:1fr;gap:3rem}
+  .comm-header{grid-template-columns:1fr;gap:2rem}
+  .rec-wrap,.founder-wrap,.impact-wrap{grid-template-columns:1fr}
+  .rec-content,.founder-content,.impact-content{padding:4rem 5%}
+  .rec-img,.founder-img,.impact-img{min-height:350px}
+  .exp-wrap{grid-template-columns:1fr;gap:3rem}
+  .foot-top{grid-template-columns:1fr 1fr;gap:2.5rem}
+}
+@media(max-width:768px){
+  nav{padding:1.2rem 5%}
+  .nav-links{display:none}
+  .hbg{display:flex}
+  section{padding:5rem 5%}
+  .hl-grid{grid-template-columns:1fr 1fr}
+  .prog-grid{grid-template-columns:1fr}
+  .gal-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .gal-item:nth-child(1){grid-column:span 2;grid-row:span 1;min-height:240px}
+  .gal-item{min-height:180px}
+  .test-wrap{grid-template-columns:1fr}
+  .mv-cards{grid-template-columns:1fr}
+  .comm-grid{grid-template-columns:1fr}
+  .foot-top{grid-template-columns:1fr}
+  .exp-grid{grid-template-columns:1fr}
+  .about-traits{grid-template-columns:1fr}
+  .hero-stats-row{gap:1.5rem}
+}
+
+/* ═══ iOS CARD POLISH ═══ */
+.hl-card,.prog-card,.exp-card,.mv-card,.test-card,.comm-card,.af{
+  border-radius:18px!important;
+  box-shadow:var(--card-shadow);
+  transition:all .35s cubic-bezier(.34,1.2,.64,1)!important;
+}
+.hl-card:hover,.prog-card:hover,.exp-card:hover{
+  box-shadow:var(--card-shadow-hover)!important;
+  transform:translateY(-4px) scale(1.01)!important;
+}
+.hl-grid,.prog-grid,.exp-grid,.mv-cards,.test-wrap,.comm-grid{
+  gap:16px!important;background:transparent!important;
+}
+.about-traits{gap:8px!important;background:transparent!important;border-radius:0}
+.trait{border-radius:14px!important}
+.academy-features{gap:8px!important;background:transparent!important}
+.af{border-radius:14px!important}
+.rec-badge,.rec-pill,.qual-pill{border-radius:20px!important}
+.btn{border-radius:980px!important;font-size:.75rem!important}
+.rule{border-radius:2px}
+.ci{border-radius:0}
+
+/* iOS scroll top padding for DI */
+#home{padding-top:80px!important}
+.hero-left{padding-top:5rem!important}
+
+/* Hero bg iOS style */
+#home{background:var(--bg)!important}
+.hero-left::after{display:none!important}
+
+/* Glass card for hero img */
+.hero-img-card{border-radius:20px!important;background:var(--glass)!important;backdrop-filter:blur(20px)!important;-webkit-backdrop-filter:blur(20px)!important;border:1px solid var(--glass-border)!important}
+.hero-img-name{color:var(--text1)!important}
+.hero-img-title{color:var(--text3)!important}
+
+/* About image accent gold box */
+.about-img-accent{border-radius:16px!important}
+
+/* Eyebrow accent — purple instead of gold in new theme */
+.eyebrow{color:var(--accent)!important}
+.eyebrow::before{background:var(--accent)!important}
+.about-content .eyebrow,.exp-left .eyebrow,.rec-content .eyebrow,.impact-content .eyebrow,.founder-content .eyebrow{color:var(--gold)!important}
+.about-content .eyebrow::before,.exp-left .eyebrow::before,.rec-content .eyebrow::before,.impact-content .eyebrow::before,.founder-content .eyebrow::before{background:var(--gold)!important}
+
+/* Impact item border radius */
+.impact-item{border-radius:14px!important}
+
+/* Input border-radius iOS */
+.fi{border-radius:12px!important}
+textarea.fi{border-radius:16px!important}
+
+/* Footer in dark/light */
+.foot-copy em{color:var(--accent)!important}
+
+/* Mobile hamburger no longer needed but keep for small screens */
+.hbg{display:none!important}
+
+/* contact img border radius */
+.contact-img{border-radius:20px!important}
+
+/* community card */
+.comm-card-img{border-radius:0!important}
+
+/* Test card top */
+.test-card-top{border-radius:18px 18px 0 0!important;overflow:hidden}
+
+/* Gal items */
+.gal-item{border-radius:16px!important;overflow:hidden!important}
+
+/* Rec badge */
+.rec-content .rec-content{border-radius:0!important}
+
+/* iOS spring animation for reveals */
+.rv,.rl,.rr{transition:opacity .7s cubic-bezier(.34,1.2,.64,1),transform .7s cubic-bezier(.34,1.2,.64,1)!important}
+
+/* DI mobile: smaller */
+@media(max-width:600px){
+  #di-nav{min-width:200px;padding:9px 14px}
+  #di-nav.expanded{min-width:calc(100vw - 32px);border-radius:22px}
+  .di-links a{font-size:.62rem;padding:.35rem .65rem}
+}
+</style>
+</head>
+<body>
+
+<div id="cur"></div>
+<div id="cur2"></div>
+
+<!-- MOBILE MENU -->
+<div class="mob-menu" id="mobMenu">
+  <button class="mob-close" id="mobClose">&#10005;</button>
+  <a href="#home" onclick="closeMob()">Home</a>
+  <a href="#about" onclick="closeMob()">About</a>
+  <a href="#expertise" onclick="closeMob()">Expertise</a>
+  <a href="#programs" onclick="closeMob()">Programs</a>
+  <a href="#recognition" onclick="closeMob()">Achievements</a>
+  <a href="#contact" onclick="closeMob()">Contact</a>
+</div>
+
+<!-- DYNAMIC ISLAND NAV -->
+<nav id="nav" style="display:none"></nav>
+<div id="di-nav" onclick="diToggle(event)">
+  <div class="di-status"></div>
+  <div class="di-dot"></div>
+  <div class="di-logo">Veena <em>JV</em></div>
+  <div class="di-links">
+    <a href="#home" onclick="diClose()">Home</a>
+    <a href="#about" onclick="diClose()">About</a>
+    <a href="#expertise" onclick="diClose()">Expertise</a>
+    <a href="#programs" onclick="diClose()">Programs</a>
+    <a href="#recognition" onclick="diClose()">Achievements</a>
+    <a href="#contact" class="di-cta" onclick="diClose()">Connect</a>
+  </div>
+  <div class="di-right">
+    <button class="di-theme-btn" id="themeBtn" onclick="toggleTheme(event)" title="Toggle dark/light mode">
+      <svg id="themeIcon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+    </button>
+  </div>
+  <div class="di-indicator"></div>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-left">
+    <div class="htag-row rv">
+      <span class="htag">Social Work Professional</span>
+      <span class="htag">Certified Trainer</span>
+      <span class="htag">BSW &middot; MSW</span>
+    </div>
+    <h1 class="hero-h1 rv d1">Empowering Lives Through<br><em>Guidance, Leadership</em><br>&amp; Purpose</h1>
+    <p class="hero-sub rv d2">Veena J V bridges the gap between education and real-world opportunity &mdash; guiding students, youth, and professionals to discover their true potential and build meaningful futures.</p>
+    <div class="hero-actions rv d3">
+      <a href="#contact" class="btn btn-dark">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        Book a Session
+      </a>
+      <a href="#programs" class="btn btn-out">Explore Programs</a>
+    </div>
+    <div class="hero-stats-row rv d4">
+      <div><div class="hstat-num">MSW</div><div class="hstat-label">Qualified</div></div>
+      <div><div class="hstat-num">2026</div><div class="hstat-label">National Rep.</div></div>
+      <div><div class="hstat-num">Kerala</div><div class="hstat-label">State Winner</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img class="hero-img" src="veena_hero.jpeg" alt="Professional woman leader" loading="eager">
+    <div class="hero-img-overlay"></div>
+    <div class="hero-img-card">
+      <div class="hero-img-name">Veena J V</div>
+      <div class="hero-img-title">Founder &middot; BThinkX &nbsp;|&nbsp; Career Guidance Expert</div>
+    </div>
+    <div class="hero-badge"><div class="hero-badge-text">National<br>Rep.<br>2026</div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-wrap">
+    <div class="rl">
+      <div class="about-img-frame"></div>
+      <div class="about-img-wrap">
+        <img class="about-img-main" src="visionaryL_leader.jpeg" alt="Veena J V portrait" loading="lazy">
+        <div class="about-img-accent">
+          <div class="about-accent-num">BSW<br>MSW</div>
+          <div class="about-accent-lbl">Qualified</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-content rr">
+      <div class="eyebrow">About Veena J V</div>
+      <h2 class="sec-title">Visionary Leader Committed to <em>Transformation</em></h2>
+      <div class="rule"></div>
+      <p class="sec-body">Veena J V is a dedicated social work professional, certified trainer, career guidance expert, and passionate entrepreneur committed to empowering individuals and strengthening communities. Her journey is driven by a strong belief that every individual has unique talents waiting to be discovered.</p>
+      <br>
+      <p class="sec-body">As the Founder of BThinkX, she leads initiatives that focus on career development, leadership skills, personality development, and youth empowerment &mdash; combining education, mentorship, and real-world skill development to create meaningful impact.</p>
+      <div class="about-quals">
+        <span class="qual-pill">Bachelor of Social Work</span>
+        <span class="qual-pill">Master of Social Work</span>
+        <span class="qual-pill">Certified Trainer</span>
+        <span class="qual-pill">Career Guidance Expert</span>
+      </div>
+      <div class="about-traits">
+        <div class="trait">
+          <svg class="trait-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span class="trait-text">Purpose-driven leadership</span>
+        </div>
+        <div class="trait">
+          <svg class="trait-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          <span class="trait-text">Clarity through mentorship</span>
+        </div>
+        <div class="trait">
+          <svg class="trait-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span class="trait-text">Community empowerment</span>
+        </div>
+        <div class="trait">
+          <svg class="trait-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <span class="trait-text">Measurable growth impact</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION & VISION -->
+<section id="mission">
+  <div class="mv-header">
+    <div class="rl">
+      <div class="eyebrow">Philosophy</div>
+      <h2 class="sec-title">Mission &amp; <em>Vision</em></h2>
+      <div class="rule"></div>
+      <p class="sec-body">Every initiative at BThinkX is driven by a clear set of principles &mdash; to make meaningful guidance accessible to every individual and build a generation of confident, capable leaders.</p>
+    </div>
+    <div class="rr">
+      <img class="mv-header-img" src="mission_vision.jpeg" alt="Team mentorship session" loading="lazy">
+    </div>
+  </div>
+  <div class="mv-cards">
+    <div class="mv-card rv d1">
+      <div class="mv-card-lbl">Our Vision</div>
+      <div class="mv-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <p class="mv-card-text">To create a society where every individual has access to the right guidance, opportunities, and support needed to unlock their potential and build a successful and purposeful life.</p>
+      <div class="mv-bg-char">V</div>
+    </div>
+    <div class="mv-card rv d2">
+      <div class="mv-card-lbl">Our Mission</div>
+      <div class="mv-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+      </div>
+      <p class="mv-card-text">To empower individuals through guidance, mentorship, and skill development initiatives that help them discover their strengths, build confidence, and achieve meaningful personal and professional growth.</p>
+      <div class="mv-bg-char">M</div>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section id="highlights">
+  <div class="hl-intro rv">
+    <div class="eyebrow">Credentials</div>
+    <h2 class="sec-title">Professional <em>Highlights</em></h2>
+    <p class="sec-body">A distinguished career built on academic excellence, entrepreneurial vision, and a relentless commitment to empowering others.</p>
+  </div>
+  <div class="hl-grid">
+    <div class="hl-card rv d1">
+      <div class="hl-num">01</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+      </div>
+      <div class="hl-title">Founder &mdash; BThinkX</div>
+      <div class="hl-desc">Visionary educational platform for career guidance and skill development</div>
+    </div>
+    <div class="hl-card rv d2">
+      <div class="hl-num">02</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+      </div>
+      <div class="hl-title">Social Work Professional</div>
+      <div class="hl-desc">BSW &amp; MSW &mdash; deep academic foundation in social development</div>
+    </div>
+    <div class="hl-card rv d3">
+      <div class="hl-num">03</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v3l2 2"/></svg>
+      </div>
+      <div class="hl-title">Career Guidance Expert</div>
+      <div class="hl-desc">Structured guidance helping individuals choose the right path</div>
+    </div>
+    <div class="hl-card rv d4">
+      <div class="hl-num">04</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <div class="hl-title">Certified Trainer &amp; Mentor</div>
+      <div class="hl-desc">Certified professional delivering transformative training programs</div>
+    </div>
+    <div class="hl-card rv d1">
+      <div class="hl-num">05</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </div>
+      <div class="hl-title">Youth Development Advocate</div>
+      <div class="hl-desc">Championing the growth of next-generation leaders</div>
+    </div>
+    <div class="hl-card rv d2">
+      <div class="hl-num">06</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      </div>
+      <div class="hl-title">Training Program Designer</div>
+      <div class="hl-desc">Creating impactful, structured learning experiences</div>
+    </div>
+    <div class="hl-card rv d3">
+      <div class="hl-num">07</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      </div>
+      <div class="hl-title">Community Development Leader</div>
+      <div class="hl-desc">Building empowered communities through social initiatives</div>
+    </div>
+    <div class="hl-card rv d4">
+      <div class="hl-num">08</div>
+      <div class="hl-icon-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      </div>
+      <div class="hl-title">Personality Development Coach</div>
+      <div class="hl-desc">Inspiring confidence, leadership, and personal effectiveness</div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERTISE -->
+<section id="expertise">
+  <div class="exp-wrap">
+    <div class="rl">
+      <div class="eyebrow">Specializations</div>
+      <h2 class="sec-title">Areas of <em>Expertise</em></h2>
+      <div class="rule"></div>
+      <p class="sec-body">A comprehensive suite of guidance, training, and mentorship disciplines designed to unlock human potential at every stage.</p>
+      <br>
+      <img class="exp-img" src="areas_of_expert_2.jpeg" alt="Team training session" loading="lazy">
+    </div>
+    <div class="rr">
+      <div class="exp-grid">
+        <div class="exp-card d1">
+          <div class="exp-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v3l2 2"/></svg></div>
+          <div class="exp-title">Career Guidance &amp; Planning</div>
+          <p class="exp-text">Structured guidance helping individuals make informed decisions about educational and career pathways.</p>
+        </div>
+        <div class="exp-card d2">
+          <div class="exp-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+          <div class="exp-title">Training &amp; Skill Development</div>
+          <p class="exp-text">Impactful programs focused on leadership, communication, and career readiness for today's evolving world.</p>
+        </div>
+        <div class="exp-card d3">
+          <div class="exp-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="exp-title">Youth Empowerment</div>
+          <p class="exp-text">Building confidence, leadership skills, and career awareness among students and youth communities.</p>
+        </div>
+        <div class="exp-card d4">
+          <div class="exp-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="exp-title">Personal Growth &amp; Mentorship</div>
+          <p class="exp-text">Helping individuals overcome self-doubt, improve mindset, and unlock their true potential.</p>
+        </div>
+        <div class="exp-card d1">
+          <div class="exp-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <div class="exp-title">Community Engagement</div>
+          <p class="exp-text">Social development initiatives that empower individuals and strengthen communities.</p>
+        </div>
+        <div class="exp-card d2">
+          <div class="exp-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+          <div class="exp-title">Leadership Development</div>
+          <p class="exp-text">Inspiring individuals to overcome challenges and pursue goals with determination and purpose.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEATINGS ACADEMY -->
+<section id="academy">
+  <div class="academy-wrap">
+    <div class="rl">
+      <div class="academy-img-col">
+        <img class="academy-img-main" src="founder_btx.jpeg" alt="Academy training workshop" loading="lazy">
+        <div class="academy-img-overlay"></div>
+        <div class="academy-img-badge">
+          <div class="academy-badge-title">BThinkX</div>
+          <div class="academy-badge-sub">Founded with Vision &middot; Led with Purpose</div>
+        </div>
+      </div>
+    </div>
+    <div class="rr">
+      <div class="eyebrow">The Institution</div>
+      <h2 class="sec-title">Founder of <em>BThinkX</em></h2>
+      <div class="rule"></div>
+      <p class="sec-body">BThinkX was founded with the vision of empowering individuals through meaningful learning experiences, mentorship, and guidance &mdash; bridging the gap between academic education and real-world professional skills.</p>
+      <br>
+      <p class="sec-body">Through structured workshops, mentorship programs, and interactive learning initiatives, the academy continues to inspire individuals toward personal growth, career success, and social responsibility.</p>
+      <div class="academy-features">
+        <div class="af">
+          <svg class="af-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <div><div class="af-title">Career Guidance</div><div class="af-text">Structured sessions to help individuals find clarity and direction</div></div>
+        </div>
+        <div class="af">
+          <svg class="af-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <div><div class="af-title">Leadership Training</div><div class="af-text">Building the next generation of confident, capable leaders</div></div>
+        </div>
+        <div class="af">
+          <svg class="af-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <div><div class="af-title">Skill Development</div><div class="af-text">Equipping individuals with practical, future-ready professional skills</div></div>
+        </div>
+        <div class="af">
+          <svg class="af-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <div><div class="af-title">Youth Mentorship</div><div class="af-text">Personalised mentorship programs for students and young professionals</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NATIONAL RECOGNITION -->
+<section id="recognition">
+  <div class="rec-wrap">
+    <div class="rec-img-col">
+      <img class="rec-img" src="viksith.jpeg" alt="National stage presentation" loading="lazy">
+      <div class="rec-img-overlay"></div>
+    </div>
+    <div class="rec-content">
+      <div class="eyebrow rv">National Achievement</div>
+      <h2 class="sec-title rv d1">Viksit Bharat <em>2026</em></h2>
+      <div class="rec-badge rv d2">
+        <div class="rec-badge-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <div class="rec-badge-text">Kerala State Winner &rarr; National Representative</div>
+      </div>
+      <p class="rec-body rv d2">Veena J V proudly represented the state of Kerala at the national platform of Viksit Bharat 2026 after winning state-level competitions &mdash; demonstrating her visionary ideas and commitment to India's workforce development.</p>
+      <div class="rec-theme rv d3">"Building a Future Ready Workforce"</div>
+      <p class="rec-body rv d3">Her presentation highlighted the importance of preparing the next generation for the challenges of a rapidly evolving professional world.</p>
+      <div class="rec-pillars rv d4">
+        <span class="rec-pill">Skill-based Education</span>
+        <span class="rec-pill">Career Awareness</span>
+        <span class="rec-pill">Leadership Development</span>
+        <span class="rec-pill">Edu-Employability Bridge</span>
+        <span class="rec-pill">Community Learning</span>
+        <span class="rec-pill">Youth Innovation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section id="community">
+  <div class="comm-header">
+    <div class="rl comm-header-text">
+      <div class="eyebrow">Social Impact</div>
+      <h2 class="sec-title">Community Leadership &amp; <em>Social Initiatives</em></h2>
+      <div class="rule"></div>
+      <p class="sec-body">Veena believes that sustainable development begins with empowered individuals and strong communities &mdash; a conviction that drives all her social engagement work.</p>
+    </div>
+    <div class="rr">
+      <img class="comm-header-img" src="helping.jpeg" alt="Community event" loading="lazy">
+    </div>
+  </div>
+  <div class="comm-grid">
+    <div class="comm-card rv d1">
+      <img class="comm-card-img" src="community.jpeg" alt="Youth leadership workshop" loading="lazy">
+      <div class="comm-card-body">
+        <div class="comm-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <div class="comm-card-title">Community Building &amp; Youth Leadership</div>
+        <p class="comm-card-text">Actively participating in initiatives focused on community building, youth empowerment, and social awareness &mdash; inspiring young individuals to develop leadership qualities, social responsibility, and confidence.</p>
+      </div>
+    </div>
+    <div class="comm-card rv d2">
+      <img class="comm-card-img" src="votersday.jpeg" alt="National Voters Day rally" loading="lazy">
+      <div class="comm-card-body">
+        <div class="comm-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
+        <div class="comm-card-title">National Voters Day &mdash; Civic Awareness</div>
+        <p class="comm-card-text">Conducted a public awareness rally for National Voters Day, organized by My Bharat with the Governor of Kerala &mdash; promoting democratic participation and encouraging young citizens to actively exercise their voting rights.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="programs">
+  <div class="prog-intro rv">
+    <div class="eyebrow">Training Offerings</div>
+    <h2 class="sec-title">Programs &amp; <em>Training Initiatives</em></h2>
+    <p class="sec-body">Structured, impactful programs designed to equip individuals with the clarity, confidence, and skills needed to thrive professionally and personally.</p>
+  </div>
+  <div class="prog-grid">
+    <div class="prog-card rv d1">
+      <img class="prog-card-img" src="careerguid.jpeg" alt="Career guidance session" loading="lazy">
+      <div class="prog-card-body">
+        <div class="prog-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v3l2 2"/></svg></div>
+        <div class="prog-title">Career Guidance Programs</div>
+        <p class="prog-text">Structured guidance sessions helping students explore opportunities, identify strengths, and choose the right academic and professional path.</p>
+        <a href="#contact" class="prog-link">Learn More <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prog-card rv d2">
+      <img class="prog-card-img" src="personalitydev.jpeg" alt="Personality development training" loading="lazy">
+      <div class="prog-card-body">
+        <div class="prog-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <div class="prog-title">Personality Development</div>
+        <p class="prog-text">Programs focused on improving confidence, communication skills, leadership abilities, and personal effectiveness for professional success.</p>
+        <a href="#contact" class="prog-link">Learn More <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prog-card rv d3">
+      <img class="prog-card-img" src="careerread.jpeg" alt="Career readiness workshop" loading="lazy">
+      <div class="prog-card-body">
+        <div class="prog-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+        <div class="prog-title">Career Readiness Workshops</div>
+        <p class="prog-text">Training sessions that prepare individuals for real-world professional environments by developing practical skills and a professional mindset.</p>
+        <a href="#contact" class="prog-link">Learn More <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prog-card rv d1">
+      <img class="prog-card-img" src="youthdedv.jpeg" alt="Youth development program" loading="lazy">
+      <div class="prog-card-body">
+        <div class="prog-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div class="prog-title">Youth Development Programs</div>
+        <p class="prog-text">Workshops and mentorship initiatives designed to empower students and young professionals with leadership skills and career clarity.</p>
+        <a href="#contact" class="prog-link">Learn More <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prog-card rv d2">
+      <img class="prog-card-img" src="leadership.jpeg" alt="Leadership session" loading="lazy">
+      <div class="prog-card-body">
+        <div class="prog-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+        <div class="prog-title">Leadership &amp; Motivation</div>
+        <p class="prog-text">Interactive sessions that inspire individuals to overcome challenges, build confidence, and pursue their goals with determination.</p>
+        <a href="#contact" class="prog-link">Learn More <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+    <div class="prog-card rv d3">
+      <img class="prog-card-img" src="mentorship.jpeg" alt="Mentorship program" loading="lazy">
+      <div class="prog-card-body">
+        <div class="prog-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+        <div class="prog-title">Mentorship Programs</div>
+        <p class="prog-text">Personalised mentorship designed to guide individuals through their personal and professional journeys with care, expertise, and clarity.</p>
+        <a href="#contact" class="prog-link">Learn More <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact">
+  <div class="impact-wrap">
+    <div class="impact-img-col">
+      <img class="impact-img" src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=900&q=80&fit=crop" alt="Impact and empowerment" loading="lazy">
+      <div class="impact-img-overlay"></div>
+    </div>
+    <div class="impact-content">
+      <div class="eyebrow rv">Making a Difference</div>
+      <h2 class="sec-title rv d1">Empowering Growth,<br><em>Inspiring Confidence</em></h2>
+      <div class="impact-items">
+        <div class="impact-item rv d1">
+          <svg class="impact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <span class="impact-text">Discover strengths and hidden abilities</span>
+        </div>
+        <div class="impact-item rv d2">
+          <svg class="impact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          <span class="impact-text">Gain clarity about career choices and paths</span>
+        </div>
+        <div class="impact-item rv d3">
+          <svg class="impact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span class="impact-text">Improve communication and confidence</span>
+        </div>
+        <div class="impact-item rv d4">
+          <svg class="impact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span class="impact-text">Develop strong leadership qualities</span>
+        </div>
+        <div class="impact-item rv d5">
+          <svg class="impact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <span class="impact-text">Build a positive, growth-oriented mindset</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="rv">
+    <div class="eyebrow">Voices of Impact</div>
+    <h2 class="sec-title">What People <em>Say</em></h2>
+  </div>
+  <div class="test-wrap">
+    <div class="test-card rv d1">
+      <div class="test-card-top">
+        <img class="test-card-img" src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=700&q=80&fit=crop" alt="Student success" loading="lazy">
+        <div class="test-card-img-overlay"></div>
+      </div>
+      <div class="test-card-body">
+        <div class="test-q">"</div>
+        <p class="test-text">Veena Ma'am's guidance helped me understand my career path clearly. Her sessions gave me the confidence and motivation to pursue my goals with clarity and direction.</p>
+        <div class="test-author">
+          <div class="test-av">S</div>
+          <div><div class="test-name">Student Participant</div><div class="test-role">Career Guidance Program</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="test-card rv d2">
+      <div class="test-card-top">
+        <img class="test-card-img" src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=700&q=80&fit=crop" alt="Workshop participant" loading="lazy">
+        <div class="test-card-img-overlay"></div>
+      </div>
+      <div class="test-card-body">
+        <div class="test-q">"</div>
+        <p class="test-text">The training programs were extremely inspiring and practical. I learned valuable skills that helped me improve my confidence and communication in meaningful ways.</p>
+        <div class="test-author">
+          <div class="test-av">W</div>
+          <div><div class="test-name">Workshop Participant</div><div class="test-role">Personality Development Training</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOUNDER -->
+<section id="founder">
+  <div class="founder-wrap">
+    <div class="founder-img-col">
+      <img class="founder-img" src="message.jpeg" alt="Founder Veena JV" loading="lazy">
+      <div class="founder-img-overlay"></div>
+    </div>
+    <div class="founder-content">
+      <div class="eyebrow rv">From the Founder</div>
+      <h2 class="sec-title rv d1">A Message from <em>Veena J V</em></h2>
+      <div class="founder-quote rv d2">
+        I strongly believe that every individual has unique potential waiting to be discovered. With the right guidance, mentorship, and mindset, anyone can transform their life and achieve meaningful success.<br><br>
+        My mission is to empower individuals with clarity, confidence, and skills that help them build a purposeful future. Through education, mentorship, and community engagement, I hope to inspire individuals to grow, lead, and contribute positively to society.
+      </div>
+      <div class="founder-sig rv d3">&mdash; Veena J V</div>
+      <div style="margin-top:2.5rem" class="rv d4">
+        <a href="#contact" class="btn btn-gold">Connect with Veena <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="rv">
+    <div class="eyebrow">Moments &amp; Milestones</div>
+    <h2 class="sec-title">Gallery &amp; <em>Highlights</em></h2>
+  </div>
+  <div class="gal-grid rv d1">
+    <div class="gal-item">
+      <img class="gal-img" src="gall_1.jpeg" alt="National stage presentation" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Viksit Bharat 2026 &mdash; National Representation</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_2.jpeg" alt="Training workshop" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Training Workshops</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_3.jpeg" alt="Youth leadership" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Youth Leadership Sessions</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_4.jpeg" alt="Civic rally" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">National Voters Day Rally</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_5.jpeg" alt="Community initiatives" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Community Initiatives</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap">
+    <div class="rl">
+      <div class="eyebrow">Get in Touch</div>
+      <h2 class="sec-title">Connect with <em>Veena J V</em></h2>
+      <div class="rule"></div>
+      <p class="sec-body">For career guidance sessions, mentorship programs, workshops, and training initiatives &mdash; reach out to explore opportunities for learning, growth, and empowerment.</p>
+      <img class="contact-img" src="connect_2.jpeg" alt="Professional consultation" loading="lazy">
+      <div class="contact-info">
+        <div class="ci">
+          <div class="ci-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="ci-lbl">Email</div><div class="ci-val"><a href="mailto:veenajv321@gmail.com">veenajv321@gmail.com</a></div></div>
+        </div>
+        <div class="ci">
+          <div class="ci-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.35a16 16 0 0 0 6 6l.72-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><div class="ci-lbl">Phone</div><div class="ci-val"><a href="tel:+919544894292">+91 95448 94292</a></div></div>
+        </div>
+        <div class="ci">
+          <div class="ci-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="ci-lbl">Location</div><div class="ci-val">Kerala, India</div></div>
+        </div>
+      </div>
+      <div class="note-box">
+        <p>Available for: Career Guidance &middot; Training Workshops &middot; Mentorship Programs &middot; Community Initiatives &middot; Speaking Engagements</p>
+      </div>
+    </div>
+    <div class="rr">
+      <div class="contact-form">
+        <div class="fg"><label class="fl">Full Name</label><input type="text" class="fi" placeholder="Your full name"></div>
+        <div class="fg"><label class="fl">Email Address</label><input type="email" class="fi" placeholder="your@email.com"></div>
+        <div class="fg"><label class="fl">What are you looking for?</label><input type="text" class="fi" placeholder="Career guidance, workshop, mentorship..."></div>
+        <div class="fg"><label class="fl">Message</label><textarea class="fi" placeholder="Tell me about your goals and how I can help..."></textarea></div>
+        <div class="form-actions">
+          <button class="btn btn-dark" onclick="alert('Thank you! Veena will respond shortly.')">Book a Session <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+          <button class="btn btn-out" onclick="alert('Your message has been sent!')">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-top">
+    <div>
+      <div class="foot-brand">Veena <em>J V</em></div>
+      <p class="foot-tagline">"Guidance can change a career.<br>Mentorship can transform a life."</p>
+      <div class="foot-social">
+        <a class="fsoc" href="#" title="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a class="fsoc" href="#" title="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a class="fsoc" href="#" title="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a class="fsoc" href="#" title="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Quick Links</div>
+      <div class="foot-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#expertise">Expertise</a>
+        <a href="#programs">Programs</a><a href="#recognition">Achievements</a><a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Services</div>
+      <div class="foot-links">
+        <a href="#programs">Career Guidance</a><a href="#programs">Training Programs</a>
+        <a href="#programs">Mentorship</a><a href="#academy">BThinkX</a><a href="#community">Community Work</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Connect</div>
+      <div class="foot-links">
+        <a href="mailto:veenajv321@gmail.com">Email</a>
+        <a href="#contact">Book a Session</a><a href="#contact">Send Message</a><a href="#community">Social Initiatives</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">&copy; Veena J V &middot; All Rights Reserved &middot; <em>BThinkX</em></div>
+    <div class="foot-copy">Empowering lives, one individual at a time.</div>
+  </div>
+</footer>
+
+<script>
+// ── CURSOR ──
+const cur=document.getElementById('cur'),cur2=document.getElementById('cur2');
+let mx=0,my=0,fx=0,fy=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cur.style.left=mx+'px';cur.style.top=my+'px'});
+(function loop(){fx+=(mx-fx)*.1;fy+=(my-fy)*.1;cur2.style.left=fx+'px';cur2.style.top=fy+'px';requestAnimationFrame(loop)})();
+document.querySelectorAll('a,button,.hl-card,.prog-card,.exp-card,.af').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cur.style.transform='translate(-50%,-50%) scale(2.2)';cur2.style.opacity='.8';cur2.style.transform='translate(-50%,-50%) scale(1.4)'});
+  el.addEventListener('mouseleave',()=>{cur.style.transform='translate(-50%,-50%) scale(1)';cur2.style.opacity='.45';cur2.style.transform='translate(-50%,-50%) scale(1)'});
+});
+
+// ── DYNAMIC ISLAND ──
+const di=document.getElementById('di-nav');
+let diOpen=false,diTimer=null;
+function diToggle(e){
+  if(e.target.closest('.di-theme-btn'))return;
+  diOpen=!diOpen;
+  di.classList.toggle('expanded',diOpen);
+  clearTimeout(diTimer);
+  if(diOpen){diTimer=setTimeout(()=>{diOpen=false;di.classList.remove('expanded')},4000)}
+}
+function diClose(){diOpen=false;di.classList.remove('expanded')}
+di.addEventListener('mouseleave',()=>{if(diOpen){clearTimeout(diTimer);diTimer=setTimeout(()=>{diOpen=false;di.classList.remove('expanded')},800)}});
+di.addEventListener('mouseenter',()=>clearTimeout(diTimer));
+window.addEventListener('scroll',()=>{if(diOpen&&scrollY>80){diOpen=false;di.classList.remove('expanded')}},{passive:true});
+
+// ── THEME TOGGLE ──
+const HTML=document.documentElement;
+let isDark=false;
+function toggleTheme(e){
+  e&&e.stopPropagation();
+  isDark=!isDark;
+  HTML.setAttribute('data-theme',isDark?'dark':'light');
+  const icon=document.getElementById('themeIcon');
+  if(isDark){
+    icon.innerHTML='<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
+  } else {
+    icon.innerHTML='<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>';
+  }
+  try{localStorage.setItem('vjv-theme',isDark?'dark':'light')}catch(er){}
+}
+// Restore saved theme
+(function(){
+  try{
+    const s=localStorage.getItem('vjv-theme');
+    if(s==='dark'){isDark=true;HTML.setAttribute('data-theme','dark');
+      const icon=document.getElementById('themeIcon');
+      if(icon)icon.innerHTML='<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
+    }
+  }catch(er){}
+})();
+
+// ── MOBILE MENU ──
+document.getElementById('mobClose').addEventListener('click',closeMob);
+function closeMob(){document.getElementById('mobMenu').classList.remove('open')}
+
+// ── SCROLL REVEAL ──
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.1});
+document.querySelectorAll('.rv,.rl,.rr').forEach(el=>obs.observe(el));
+
+// ── PARALLAX ──
+window.addEventListener('scroll',()=>{const s=scrollY;const hi=document.querySelector('.hero-img');if(hi)hi.style.transform=`translateY(${s*.12}px)`},{passive:true});
+</script>
+</body>
+</html>
