@@ -546,7 +546,8 @@ section{padding:7rem 5%;position:relative;transition:background .4s ease}
 .ci-icon{width:40px;height:40px;background:var(--teal-deep);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--gold)}
 .ci-lbl{font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem}
 .ci-val{font-size:.9rem;color:var(--text-dark)}
-.contact-form{display:flex;flex-direction:column;gap:1rem}
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.contact-form .fg.full{grid-column:1 / -1}
 .fg{display:flex;flex-direction:column;gap:.4rem}
 .fl{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-soft)}
 .fi{background:var(--bg2);border:1px solid rgba(191,144,64,.2);padding:.85rem 1rem;font-size:.9rem;color:var(--text-dark);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;outline:none;transition:border-color .3s;width:100%}
@@ -604,6 +605,7 @@ footer{background:var(--bg2);border-top:1px solid var(--sep);padding:5rem 5% 2.5
   .exp-grid{grid-template-columns:1fr}
   .about-traits{grid-template-columns:1fr}
   .hero-stats-row{gap:1.5rem}
+  .contact-form{grid-template-columns:1fr}
 }
 
 /* ═══ iOS CARD POLISH ═══ */
@@ -738,7 +740,7 @@ textarea.fi{border-radius:16px!important}
       <span class="htag">BSW &middot; MSW</span>
     </div>
     <h1 class="hero-h1 rv d1">Empowering Lives Through<br><em>Guidance, Leadership</em><br>&amp; Purpose</h1>
-    <p class="hero-sub rv d2">Veena J V bridges the gap between education and real-world opportunity &mdash; guiding students, youth, and professionals to discover their true potential and build meaningful futures.</p>
+    <p class="hero-sub rv d2">Veena J V bridges the gap between education and real-world opportunity  ; guiding students, youth, and professionals to discover their true potential and build meaningful futures.</p>
     <div class="hero-actions rv d3">
       <a href="#contact" class="btn btn-dark">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -769,9 +771,9 @@ textarea.fi{border-radius:16px!important}
     <div class="rl">
       <div class="about-img-frame"></div>
       <div class="about-img-wrap">
-        <img class="about-img-main" src="visionaryL_leader.jpeg" alt="Veena J V portrait" loading="lazy">
+        <img class="about-img-main" src="cru_wt_saree.jpeg" alt="Veena J V portrait" loading="lazy">
         <div class="about-img-accent">
-          <div class="about-accent-num">BSW<br>MSW</div>
+          <div class="about-accent-num">MSWC</div>
           <div class="about-accent-lbl">Qualified</div>
         </div>
       </div>
@@ -782,7 +784,7 @@ textarea.fi{border-radius:16px!important}
       <div class="rule"></div>
       <p class="sec-body">Veena J V is a dedicated social work professional, certified trainer, career guidance expert, and passionate entrepreneur committed to empowering individuals and strengthening communities. Her journey is driven by a strong belief that every individual has unique talents waiting to be discovered.</p>
       <br>
-      <p class="sec-body">As the Founder of BThinkX, she leads initiatives that focus on career development, leadership skills, personality development, and youth empowerment &mdash; combining education, mentorship, and real-world skill development to create meaningful impact.</p>
+      <p class="sec-body">As the Founder of BThinkX, she leads initiatives that focus on career development, leadership skills, personality development, and youth empowerment  ; combining education, mentorship, and real-world skill development to create meaningful impact.</p>
       <div class="about-quals">
         <span class="qual-pill">Bachelor of Social Work</span>
         <span class="qual-pill">Master of Social Work</span>
@@ -818,7 +820,7 @@ textarea.fi{border-radius:16px!important}
       <div class="eyebrow">Philosophy</div>
       <h2 class="sec-title">Mission &amp; <em>Vision</em></h2>
       <div class="rule"></div>
-      <p class="sec-body">Every initiative at BThinkX is driven by a clear set of principles &mdash; to make meaningful guidance accessible to every individual and build a generation of confident, capable leaders.</p>
+      <p class="sec-body">Every initiative at BThinkX is driven by a clear set of principles; to make meaningful guidance accessible to every individual and build a generation of confident, capable leaders.</p>
     </div>
     <div class="rr">
       <img class="mv-header-img" src="mission_vision.jpeg" alt="Team mentorship session" loading="lazy">
@@ -857,7 +859,7 @@ textarea.fi{border-radius:16px!important}
       <div class="hl-icon-wrap">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
       </div>
-      <div class="hl-title">Founder &mdash; BThinkX</div>
+      <div class="hl-title">Founder  ; BThinkX</div>
       <div class="hl-desc">Visionary educational platform for career guidance and skill development</div>
     </div>
     <div class="hl-card rv d2">
@@ -866,7 +868,7 @@ textarea.fi{border-radius:16px!important}
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
       </div>
       <div class="hl-title">Social Work Professional</div>
-      <div class="hl-desc">BSW &amp; MSW &mdash; deep academic foundation in social development</div>
+      <div class="hl-desc">BSW &amp; MSW  ; deep academic foundation in social development</div>
     </div>
     <div class="hl-card rv d3">
       <div class="hl-num">03</div>
@@ -984,7 +986,7 @@ textarea.fi{border-radius:16px!important}
       <div class="eyebrow">The Institution</div>
       <h2 class="sec-title">Founder of <em>BThinkX</em></h2>
       <div class="rule"></div>
-      <p class="sec-body">BThinkX was founded with the vision of empowering individuals through meaningful learning experiences, mentorship, and guidance &mdash; bridging the gap between academic education and real-world professional skills.</p>
+      <p class="sec-body">BThinkX was founded with the vision of empowering individuals through meaningful learning experiences, mentorship, and guidance  ; bridging the gap between academic education and real-world professional skills.</p>
       <br>
       <p class="sec-body">Through structured workshops, mentorship programs, and interactive learning initiatives, the academy continues to inspire individuals toward personal growth, career success, and social responsibility.</p>
       <div class="academy-features">
@@ -1023,7 +1025,7 @@ textarea.fi{border-radius:16px!important}
         <div class="rec-badge-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
         <div class="rec-badge-text">Kerala State Winner &rarr; National Representative</div>
       </div>
-      <p class="rec-body rv d2">Veena J V proudly represented the state of Kerala at the national platform of Viksit Bharat 2026 after winning state-level competitions &mdash; demonstrating her visionary ideas and commitment to India's workforce development.</p>
+      <p class="rec-body rv d2">Veena J V proudly represented the state of Kerala at the national platform of Viksit Bharat 2026 after winning state-level competitions  ; demonstrating her visionary ideas and commitment to India's workforce development.</p>
       <div class="rec-theme rv d3">"Building a Future Ready Workforce"</div>
       <p class="rec-body rv d3">Her presentation highlighted the importance of preparing the next generation for the challenges of a rapidly evolving professional world.</p>
       <div class="rec-pillars rv d4">
@@ -1045,7 +1047,7 @@ textarea.fi{border-radius:16px!important}
       <div class="eyebrow">Social Impact</div>
       <h2 class="sec-title">Community Leadership &amp; <em>Social Initiatives</em></h2>
       <div class="rule"></div>
-      <p class="sec-body">Veena believes that sustainable development begins with empowered individuals and strong communities &mdash; a conviction that drives all her social engagement work.</p>
+      <p class="sec-body">Veena believes that sustainable development begins with empowered individuals and strong communities  ; a conviction that drives all her social engagement work.</p>
     </div>
     <div class="rr">
       <img class="comm-header-img" src="helping.jpeg" alt="Community event" loading="lazy">
@@ -1057,15 +1059,15 @@ textarea.fi{border-radius:16px!important}
       <div class="comm-card-body">
         <div class="comm-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
         <div class="comm-card-title">Community Building &amp; Youth Leadership</div>
-        <p class="comm-card-text">Actively participating in initiatives focused on community building, youth empowerment, and social awareness &mdash; inspiring young individuals to develop leadership qualities, social responsibility, and confidence.</p>
+        <p class="comm-card-text">Actively participating in initiatives focused on community building, youth empowerment, and social awareness  ; inspiring young individuals to develop leadership qualities, social responsibility, and confidence.</p>
       </div>
     </div>
     <div class="comm-card rv d2">
       <img class="comm-card-img" src="votersday.jpeg" alt="National Voters Day rally" loading="lazy">
       <div class="comm-card-body">
         <div class="comm-card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
-        <div class="comm-card-title">National Voters Day &mdash; Civic Awareness</div>
-        <p class="comm-card-text">Conducted a public awareness rally for National Voters Day, organized by My Bharat with the Governor of Kerala &mdash; promoting democratic participation and encouraging young citizens to actively exercise their voting rights.</p>
+        <div class="comm-card-title">National Voters Day  ; Civic Awareness</div>
+        <p class="comm-card-text">Conducted a public awareness rally for National Voters Day, organized by My Bharat with the Governor of Kerala  ; promoting democratic participation and encouraging young citizens to actively exercise their voting rights.</p>
       </div>
     </div>
   </div>
@@ -1224,7 +1226,7 @@ textarea.fi{border-radius:16px!important}
         I strongly believe that every individual has unique potential waiting to be discovered. With the right guidance, mentorship, and mindset, anyone can transform their life and achieve meaningful success.<br><br>
         My mission is to empower individuals with clarity, confidence, and skills that help them build a purposeful future. Through education, mentorship, and community engagement, I hope to inspire individuals to grow, lead, and contribute positively to society.
       </div>
-      <div class="founder-sig rv d3">&mdash; Veena J V</div>
+      <div class="founder-sig rv d3"> ; Veena J V</div>
       <div style="margin-top:2.5rem" class="rv d4">
         <a href="#contact" class="btn btn-gold">Connect with Veena <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
@@ -1241,7 +1243,7 @@ textarea.fi{border-radius:16px!important}
   <div class="gal-grid rv d1">
     <div class="gal-item">
       <img class="gal-img" src="gall_1.jpeg" alt="National stage presentation" loading="lazy">
-      <div class="gal-overlay"><div class="gal-caption">Viksit Bharat 2026 &mdash; National Representation</div></div>
+      <div class="gal-overlay"><div class="gal-caption">Viksit Bharat 2026  ; National Representation</div></div>
     </div>
     <div class="gal-item">
       <img class="gal-img" src="gall_2.jpeg" alt="Training workshop" loading="lazy">
@@ -1259,6 +1261,30 @@ textarea.fi{border-radius:16px!important}
       <img class="gal-img" src="gall_5.jpeg" alt="Community initiatives" loading="lazy">
       <div class="gal-overlay"><div class="gal-caption">Community Initiatives</div></div>
     </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_6.jpeg" alt="Community initiatives" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Dinner with the Minister</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_7.jpeg" alt="Community initiatives" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">VBYLD 2026</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_8.jpeg" alt="Community initiatives" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Meeting with the Minister</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_9.jpeg" alt="Community initiatives" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Kerala Contingent Leaders</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_12.jpeg" alt="Community initiatives" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Self Awareness Session</div></div>
+    </div>
+    <div class="gal-item">
+      <img class="gal-img" src="gall_11.jpeg" alt="Community initiatives" loading="lazy">
+      <div class="gal-overlay"><div class="gal-caption">Farewell Function</div></div>
+    </div>
   </div>
 </section>
 
@@ -1269,7 +1295,7 @@ textarea.fi{border-radius:16px!important}
       <div class="eyebrow">Get in Touch</div>
       <h2 class="sec-title">Connect with <em>Veena J V</em></h2>
       <div class="rule"></div>
-      <p class="sec-body">For career guidance sessions, mentorship programs, workshops, and training initiatives &mdash; reach out to explore opportunities for learning, growth, and empowerment.</p>
+      <p class="sec-body">For career guidance sessions, mentorship programs, workshops, and training initiatives  ; reach out to explore opportunities for learning, growth, and empowerment.</p>
       <img class="contact-img" src="connect_2.jpeg" alt="Professional consultation" loading="lazy">
       <div class="contact-info">
         <div class="ci">
@@ -1290,16 +1316,28 @@ textarea.fi{border-radius:16px!important}
       </div>
     </div>
     <div class="rr">
-      <div class="contact-form">
-        <div class="fg"><label class="fl">Full Name</label><input type="text" class="fi" placeholder="Your full name"></div>
-        <div class="fg"><label class="fl">Email Address</label><input type="email" class="fi" placeholder="your@email.com"></div>
-        <div class="fg"><label class="fl">What are you looking for?</label><input type="text" class="fi" placeholder="Career guidance, workshop, mentorship..."></div>
-        <div class="fg"><label class="fl">Message</label><textarea class="fi" placeholder="Tell me about your goals and how I can help..."></textarea></div>
-        <div class="form-actions">
-          <button class="btn btn-dark" onclick="alert('Thank you! Veena will respond shortly.')">Book a Session <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
-          <button class="btn btn-out" onclick="alert('Your message has been sent!')">Send Message</button>
+      <form class="contact-form" id="contactForm" onsubmit="return false">
+        <div class="fg">
+          <label class="fl" for="cf_name">Full Name</label>
+          <input id="cf_name" name="name" type="text" class="fi" placeholder="Your full name" autocomplete="name" required>
         </div>
-      </div>
+        <div class="fg">
+          <label class="fl" for="cf_email">Email Address</label>
+          <input id="cf_email" name="email" type="email" class="fi" placeholder="your@email.com" autocomplete="email" required>
+        </div>
+        <div class="fg full">
+          <label class="fl" for="cf_need">What are you looking for?</label>
+          <input id="cf_need" name="need" type="text" class="fi" placeholder="Career guidance, workshop, mentorship..." required>
+        </div>
+        <div class="fg full">
+          <label class="fl" for="cf_message">Message</label>
+          <textarea id="cf_message" name="message" class="fi" placeholder="Tell me about your goals and how I can help..." required></textarea>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-dark" type="button" onclick="bookSessionWhatsApp()">Book a Session <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+          <button class="btn btn-out" type="button" onclick="sendMessageWhatsApp()">Send Message</button>
+        </div>
+      </form>
     </div>
   </div>
 </section>
@@ -1311,10 +1349,8 @@ textarea.fi{border-radius:16px!important}
       <div class="foot-brand">Veena <em>J V</em></div>
       <p class="foot-tagline">"Guidance can change a career.<br>Mentorship can transform a life."</p>
       <div class="foot-social">
-        <a class="fsoc" href="#" title="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
-        <a class="fsoc" href="#" title="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-        <a class="fsoc" href="#" title="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-        <a class="fsoc" href="#" title="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg></a>
+        <a class="fsoc" href="https://www.linkedin.com/in/veena-j-v-51a44733b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" title="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a class="fsoc" href="https://www.instagram.com/veena__jv?igsh=aGw2NDYxa3kxenlw" target="_blank" rel="noopener noreferrer" title="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
       </div>
     </div>
     <div>
@@ -1407,6 +1443,68 @@ document.querySelectorAll('.rv,.rl,.rr').forEach(el=>obs.observe(el));
 
 // ── PARALLAX ──
 window.addEventListener('scroll',()=>{const s=scrollY;const hi=document.querySelector('.hero-img');if(hi)hi.style.transform=`translateY(${s*.12}px)`},{passive:true});
+
+// ── CONTACT → WHATSAPP ──
+const WHATSAPP_NUMBER_E164 = '919544894292';
+function _getContactFormValues(){
+  const form=document.getElementById('contactForm');
+  const name=(document.getElementById('cf_name')?.value||'').trim();
+  const email=(document.getElementById('cf_email')?.value||'').trim();
+  const need=(document.getElementById('cf_need')?.value||'').trim();
+  const message=(document.getElementById('cf_message')?.value||'').trim();
+  return {form,name,email,need,message};
+}
+function _requireField(val, id, label){
+  if(val) return true;
+  alert(`Please enter ${label}.`);
+  const el=document.getElementById(id);
+  if(el) el.focus();
+  return false;
+}
+function _openWhatsApp(text){
+  const url=`https://wa.me/${WHATSAPP_NUMBER_E164}?text=${encodeURIComponent(text)}`;
+  window.open(url,'_blank','noopener');
+}
+function sendMessageWhatsApp(){
+  const {name,email,need,message}=_getContactFormValues();
+  if(!_requireField(name,'cf_name','your full name')) return;
+  if(!_requireField(email,'cf_email','your email address')) return;
+  if(!_requireField(need,'cf_need','what you are looking for')) return;
+  if(!_requireField(message,'cf_message','your message')) return;
+
+  const text=[
+    'Hello Veena Ma’am,',
+    '',
+    'I would like to connect with you.',
+    '',
+    `Name: ${name}`,
+    `Email: ${email}`,
+    `Looking for: ${need}`,
+    '',
+    `Message: ${message}`
+  ].join('\n');
+  _openWhatsApp(text);
+}
+function bookSessionWhatsApp(){
+  const {name,email,need,message}=_getContactFormValues();
+  if(!_requireField(name,'cf_name','your full name')) return;
+  if(!_requireField(email,'cf_email','your email address')) return;
+  if(!_requireField(need,'cf_need','what you are looking for')) return;
+  if(!_requireField(message,'cf_message','your message')) return;
+
+  const text=[
+    'Hello Veena Ma’am,',
+    '',
+    'I would like to book a session.',
+    '',
+    `Name: ${name}`,
+    `Email: ${email}`,
+    `Session for: ${need}`,
+    '',
+    `Message: ${message}`
+  ].join('\n');
+  _openWhatsApp(text);
+}
 </script>
 </body>
 </html>
